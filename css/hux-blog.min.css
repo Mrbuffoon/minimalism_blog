@@ -923,6 +923,20 @@ img::-moz-selection {
 	margin-bottom: 6px
 }
 
+.tags .edit {
+	display: inline-block;
+	border: 2px solid rgba(255, 255, 255, .8);
+	border-radius: 999em;
+	padding: 0 10px;
+	color: #fff;
+	line-height: 24px;
+	font-size: 12px;
+	text-decoration: none;
+	margin: 0 1px;
+	margin-bottom: 6px;
+	float: right;
+}
+
 .tags .classify {
 	display: inline-block;
 	border: 2px solid rgba(18, 170, 156, .8);
@@ -936,7 +950,7 @@ img::-moz-selection {
 	margin-bottom: 6px
 }
 
-.tags a:hover, .tags .tag:hover, .tags a:active, .tags .tag:active {
+.tags a:hover, .tags .tag:hover, .tags a:active, .tags .tag:active, .tags .edit:hover, .tags .edit:active {
 	color: #fff;
 	border-color: #fff;
 	background-color: rgba(18, 170, 156, .4);
