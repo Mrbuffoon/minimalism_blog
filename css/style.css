@@ -19,3 +19,17 @@
 .navbar-nav .dropdown-menu {
     background-color: #333;
 }
+.panel-title, .panel-body {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.panel-btn {
+	float: right;
+}
+
+.panel-btn-login {
+	padding-right: 5px;
+	padding-left: 5px;
+}
